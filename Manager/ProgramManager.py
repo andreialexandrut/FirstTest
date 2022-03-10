@@ -2,7 +2,6 @@ import sys
 from Actions import ToDoList
 
 todo_list_obj = ToDoList()
-todo_list_obj.e(0, "Titolanza")
 
 for i in range(1, len(sys.argv)):
     match sys.argv[i]:
